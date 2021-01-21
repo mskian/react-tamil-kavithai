@@ -79,7 +79,7 @@ getNewQuote = () => {
           Song of the day 🎹
         </h2>
         <br />
-        <AudioPlayer autoPlay src="https://san-movies.b-cdn.net/videos/songoftheday.mp3" showJumpControls={false} />
+        <AudioPlayer src="https://san-movies.b-cdn.net/videos/songoftheday.mp3" showJumpControls={false} />
         <br />
         <br />
         <hr />
