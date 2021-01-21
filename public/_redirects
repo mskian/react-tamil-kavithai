@@ -1,0 +1,6 @@
+
+# Netlify redirects file, edit with your domain
+# https://www.netlify.com/docs/redirects/
+
+https://tamilsmsblog.netlify.app/* https://random.tamilsms.blog/:splat 301!
+http://tamilsmsblog.netlify.app/* https://random.tamilsms.blog/:splat 301!
