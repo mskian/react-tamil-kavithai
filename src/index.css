@@ -76,7 +76,6 @@ p {
 	flex-grow: 0.3;
 	font-weight: 600;
   font-size: 18px;
-  max-width: 95%;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	border-radius: 30px;
 	padding: 35px;
