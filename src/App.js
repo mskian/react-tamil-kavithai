@@ -6,6 +6,8 @@ import { Fade } from "react-awesome-reveal";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 class RetrieveList extends Component {
  
@@ -56,7 +58,7 @@ getNewQuote = () => {
         <div className="columns is-centered">
         <div className="column is-half">
         <br />
-        <h1 className="title has-text-warning has-text-centered">
+        <h1 style={{ color : '#bee5d3'}} className="title has-text-centered">
          💗 Tamil Kavithai 💗
         </h1>
         {this.state.isLoading ? "" : 
@@ -73,9 +75,16 @@ getNewQuote = () => {
         </div>
         <br />
         <br />
+        <h2 className="has-text-weight-bold has-text-centered" style={{ color: '#eaac7f' }}>
+          Song of the day 🎹
+        </h2>
+        <br />
+        <AudioPlayer autoPlay src="https://san-movies.b-cdn.net/videos/songoftheday.mp3" showJumpControls={false} />
+        <br />
+        <br />
         <hr />
         <Fade>
-        <p className="has-text-success has-text-weight-bold has-text-centered">
+        <p style={{ color : '#9dad7f'}} className="has-text-weight-bold has-text-centered">
           தமிழ் எஸ் எம் எஸ் 💌 <br />
           PWA Web App from the Creator of tamilsms.blog - Built using React JS <br />
           <br />

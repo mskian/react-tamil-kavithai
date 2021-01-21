@@ -65,7 +65,7 @@ p {
   word-wrap: break-word;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 18px;
-  color: #ecfc09;
+  color: #ffe227;
   -moz-osx-font-smoothing: grayscale;
  -webkit-font-smoothing: antialiased !important;
  -moz-font-smoothing: antialiased !important;
@@ -139,7 +139,7 @@ pre code {
     font-weight: 800;
 }
 .content h2 {
-    font-size:21px;
+    font-size:24px;
     font-weight: 700;
 }
 .content h3 {
