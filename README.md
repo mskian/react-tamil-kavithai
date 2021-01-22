@@ -1,6 +1,6 @@
 # Tamil kavithai ☀
 
-![build-test](https://github.com/mskian/react-tamil-kavithai/workflows/build-test/badge.svg)  
+![build-test](https://github.com/mskian/react-tamil-kavithai/workflows/build-test/badge.svg)
 
 Tamil SMS Blog - Get Random Tamil kavithai and Tamil Quotes 💗
 

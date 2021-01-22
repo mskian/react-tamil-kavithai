@@ -1,6 +1,11 @@
 # These are default recommended security headers, for Netlify
 # https://www.netlify.com/docs/headers-and-basic-auth/
 
+/sw.js
+  Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+  Pragma: no-cache
+  Expires: Wed, 11 Jan 1984 05:00:00 GMT
+
 /service-worker.js
   Cache-Control: max-age=0, no-cache, no-store, must-revalidate
   Pragma: no-cache
