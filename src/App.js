@@ -77,7 +77,7 @@ class RetrieveList extends Component {
                   onClick={this.getNewQuote}
                   disabled={this.state.isLoading}
                 >
-                  {this.state.isLoading ? "Loading..." : "🔄 Random kavithai"}
+                  {this.state.isLoading ? "Loading..." : "🔄 Random"}
                 </button>
                 <ToastContainer />
                 <CopyToClipboard
@@ -91,9 +91,25 @@ class RetrieveList extends Component {
                     onClick={this.Copykavithai}
                     disabled={this.state.isLoading}
                   >
-                    {this.state.isLoading ? "Loading..." : "📝 Copy kavithai"}
+                    {this.state.isLoading ? "Loading..." : "📝 Copy"}
                   </button>
                 </CopyToClipboard>
+              </div>
+              <br />
+              <br />
+              <div className="subscribe-form">
+                <p className="has-text-dark has-text-weight-medium has-text-centered">
+                  Our Free Telegram Bot 🤖 - Get Random Tamil kavithai, Tamil
+                  Quotes and Kadhal kavithai 💜
+                </p>
+                <a
+                  href="https://telegram.me/tamilsms_bot"
+                  className="button-link"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                >
+                  <span>▶ Start Now</span>
+                </a>
               </div>
               <br />
               <br />
