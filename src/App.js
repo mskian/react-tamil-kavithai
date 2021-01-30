@@ -18,7 +18,7 @@ class RetrieveList extends Component {
     this.getQuote()
   }
   getQuote() {
-    toast.dark("🦄 Kavithai Updated", {
+    toast.dark("⏏ Kavithai Updated", {
       position: "top-right",
       autoClose: 800,
       hideProgressBar: true,
@@ -26,6 +26,7 @@ class RetrieveList extends Component {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
+      closeButton: false,
     })
     axios.get("https://app.santhoshveer.com/san.php").then(res => {
       const tamilsms = res.data
@@ -33,7 +34,7 @@ class RetrieveList extends Component {
     })
   }
   Copykavithai() {
-    toast.dark("🦄 Kavithai Copied", {
+    toast.dark("📝 Kavithai Copied", {
       position: "top-right",
       autoClose: 800,
       hideProgressBar: true,
@@ -41,6 +42,7 @@ class RetrieveList extends Component {
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
+      closeButton: false,
     })
   }
   getNewQuote = () => {
