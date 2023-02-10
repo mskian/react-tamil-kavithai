@@ -37,7 +37,7 @@
     "workbox-streams": "^6.5.4"
   },
   "devDependencies": {
-    "prettier": "2.8.3"
+    "prettier": "2.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
